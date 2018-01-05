@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
     libasound2-data \
     wget
 
-RUN wget http://squeezelite-downloads.googlecode.com/git/squeezelite-armv6hf
+RUN wget https://github.com/Hypfer/squeezelite-downloads/raw/master/squeezelite-armv6hf
 
 RUN chmod a+x squeezelite-armv6hf
 
